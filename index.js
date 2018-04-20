@@ -15,7 +15,7 @@ var server = http.createServer(handleRequest);
 var server2 = http.createServer(handleRequest2);
 
 server.listen(PORT1, function(){
-    console.log("You're great!");
+    console.log("You're super ok!");
 });
 
 server2.listen(PORT2, function(){
